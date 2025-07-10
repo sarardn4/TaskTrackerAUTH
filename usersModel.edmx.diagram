@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3ed1a97376dd45a7956b7e14802148a6" Name="Diagram1">
+        <EntityTypeShape EntityType="taskProjectModel.category" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="taskProjectModel.reminder" Width="1.5" PointX="5.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="taskProjectModel.task" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="taskProjectModel.taskLog" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="taskProjectModel.user" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="taskProjectModel.usersRole" Width="1.5" PointX="5.75" PointY="7" IsExpanded="true" />
+        <AssociationConnector Association="taskProjectModel.FK__tasks__categoryI__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="taskProjectModel.FK__reminders__taskI__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="taskProjectModel.FK__auditLogs__taskI__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="taskProjectModel.FK__tasks__userId__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="taskProjectModel.FK__auditLogs__userI__4D94879B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
